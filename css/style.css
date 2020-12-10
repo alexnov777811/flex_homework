@@ -72,3 +72,92 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+
+.content {
+  max-width: 1280px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0 auto;
+}
+.header {
+  min-height: 323px;
+  background-color:#445162;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+  
+}
+.header__title {
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.3);
+  padding: 50px;
+  color: #ffffff;
+}
+.header__h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+.header__list {
+  font-size: 20px;
+  line-height: 36px;
+  list-style: none;
+}
+.header__list li:before {
+  content: ' ';
+  width: 25px;
+  height: 19px;
+  background: url('../img/check_icon.png') left no-repeat;
+  display: inline-block;
+  margin: 0 10px 0 0
+}
+.header__logo {
+  padding: 50px;
+  max-height: 323px;
+  max-width: 640px;
+  display: flex;
+  justify-content: center ;
+}
+.header__img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.selection1 {
+}
+.selection1__img {
+}
+.selection1__text {
+}
+.selection1__title {
+}
+.selection1__subtitle {
+}
+.selection2 {
+}
+.selection2__title {
+}
+.selection2__row {
+}
+.selection2__item {
+}
+.selection2__item-img {
+}
+.selection2__item-text {
+}
+.selection3 {
+}
+.selection3__title {
+}
+.selection3__row {
+}
+.selection3__column {
+}
+.selection3__column-titie {
+}
+.selection3__column-subtitie {
+}
+.selection3__column-text {
+}
+.selection3__column-botton {
+}
+.footer {
+}
+.footer__text {
+}
